@@ -53,7 +53,7 @@ function App() {
         <Card {...topRightCard} style={{width: '15rem'}}/>
       </div>
       
-      <div className='search'> {/* можно завернуть в компонент */}
+      <div className='search'> 
         <img className='' src='' alt='Яндекс'/>
         <div className='search-body'>
           <div className='search-links'>
@@ -73,7 +73,6 @@ function App() {
 
       <div className='footer'>
         <WeatherCard/>
-        {/* Прочие специфичные карточки, содержащие InlineCard*/}
       </div>
     </div>
   );
